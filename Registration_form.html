@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <style>
+        body{
+            background-color:aquamarine;
+        }
+        h1{
+            text-align:center;
+            color:aqua;
+            background-color:teal;
+            font-family:"Book Antiqua";
+            border:aquamarine dotted 2px;
+        }
+        form{
+            text-align:center;
+            align:center;
+            color:aqua;
+            background-color:teal;
+            font-family:"Book Antiqua";
+            padding:2px;
+            margin:2px;
+            border:aquamarine dotted 2px;
+        }
+
+    </style>
+    <script src="alert_demo.js"></script>
+</head>
+<body>
+
+<h1>Student Registration Form</h1>
+    <form>
+        First Name: <input type="text" size="20px" id="first_name" placeholder="Text">
+        <br></br>
+        Middle Name: <input type="text" size="20px"  placeholder="Text">
+        <br></br>
+        Last Name: <input type="text" size="20px" placeholder="Text">
+        <br></br>
+        Course: <select>
+                    <option value="C">C</option>
+                    <option value="C++">C++</option>
+                    <option value="JAVA">JAVA</option>
+                    <option value="Python">Python</option>
+                    <option value="Web Devlopment">Web Devlopment</option>
+                </select>
+        <br></br>
+        Gender: <input type="radio" name="gender" value="male">male
+                <input type="radio" name="gender" value="female">female
+                <input type="radio" name="gender" value="other">other
+        <br></br>
+        <textarea rows="5" cols="30" placeholder="Enter Address"></textarea>
+        <br></br>
+        Contact No: <input type="text" value="+91" size="1px">
+                    <input type="text" size="20px">
+        <br></br>
+        Email: <input type="text" size="20px">
+        <br></br>
+        Password: <input type="password" size="20px">
+        <br></br>
+        Re-type Password: <input type="password" size="20px">
+        <br></br>
+        <button onclick="check()">Submit</button>
+        <input type="reset" value="Exit">
+
+    </form>
+</body>
+</html>

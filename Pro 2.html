@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <style>
+        form{
+            align-content: center;
+            background: turquoise;
+            padding: 10px;
+        }
+        h1{
+            border: red dashed 5px;
+            background: blue;
+            color: chartreuse;
+            font-style: oblique;
+            font-family: Verdana;
+
+        }
+        body{
+            background: yellow;
+        }
+    </style>
+    <script src="alert_demo.js"></script>
+</head>
+<body>
+<center><h1>436 Hertz Studio</h1></center>
+<form>
+    First name: <input type="text" size="10px" id="firstname" placeholder="Firstname">
+    <br></br>
+    Middle name: <input type="text" size="10px" id="middlename" placeholder="Middle name">
+    <br></br>
+    Last name: <input type="text" size="20px" id="lastname" placeholder="Last name">
+    <br></br>
+    Courses :
+    <select name="" id="courses">
+        <option value="Select Course">Select Course</option>
+        <option value="Guitar lessons">Guitar lessons</option>
+        <option value="Vocal lessons">Vocal lessons</option>
+        <option value="Violin lessons">Violin lessons</option>
+        <option value="Drums lessons">Drums lessons</option>
+        <option value="Keyboard lessons">Keyboard lessons</option>
+    </select>
+    <br></br>
+    Gender:
+    <input type="radio" value="Male"> Male
+    <input type="radio" value="Female">Female
+    <input type="radio" value="Others">Others
+    <br></br>
+    Mobile No.:
+    <input type="text" id="Country Code" value="+91" size="2">
+    <input type="text" id="phone" size="10" placeholder="Enter number">
+    <br></br>
+    Email Id:
+    <input type="email" name="Email Id" placeholder=" Enter valid Email-id">
+    <br></br>
+    <textarea cols="80" rows="6" id="address" placeholder="Enter Address"></textarea>
+    <br></br>
+    Username:
+    <input type="text" id="username" size="20" placeholder="Username">
+    <br></br>
+    Password:
+    <input type="password" name="Password" id="pass" placeholder="Enter Password">
+    <br></br>
+    Re-type Password:
+    <input type="password" id="re pass" placeholder=" Re enter">
+    <br></br>
+    <button onclick="check()">Submit</button>
+    <input type="reset" name="reset">
+
+</form>
+</body>
+</html>
